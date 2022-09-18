@@ -32,6 +32,7 @@
 		964F025D26E7CAB40007F341 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 964F025C26E7CAB40007F341 /* GoogleService-Info.plist */; };
 		964F025E26E7CAF70007F341 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 964F023726E7C8FF0007F341 /* Localizable.strings */; };
 		964FFFF226E7C7550007F341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 964FFFF126E7C7550007F341 /* Assets.xcassets */; };
+		DE4FA13E28D7947600085483 /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DE4FA13D28D7947600085483 /* Onboarding.Chart.json */; };
 		DEC38FBD289AC286005372BC /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC38DF8289AC285005372BC /* UIColorExtension.swift */; };
 		DEC38FBE289AC286005372BC /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC38DF9289AC285005372BC /* Collection+Extension.swift */; };
 		DEC38FBF289AC286005372BC /* Observable+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC38DFA289AC285005372BC /* Observable+Utils.swift */; };
@@ -334,7 +335,6 @@
 		DEC390E8289AC286005372BC /* OImproveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC38F9F289AC286005372BC /* OImproveCell.swift */; };
 		DEC390E9289AC286005372BC /* ReferencesTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC38FA1289AC286005372BC /* ReferencesTableCell.swift */; };
 		DEC390EA289AC286005372BC /* ReferencesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC38FA2289AC286005372BC /* ReferencesTableView.swift */; };
-		DEC390EB289AC286005372BC /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DEC38FA4289AC286005372BC /* Onboarding.Chart.json */; };
 		DEC390EC289AC286005372BC /* OWhenStudyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC38FA5289AC286005372BC /* OWhenStudyCell.swift */; };
 		DEC390ED289AC286005372BC /* WelcomeSlide1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC38FA7289AC286005372BC /* WelcomeSlide1View.swift */; };
 		DEC390EE289AC286005372BC /* WelcomeSlideIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC38FA8289AC286005372BC /* WelcomeSlideIndicatorView.swift */; };
@@ -422,6 +422,7 @@
 		964FFFF126E7C7550007F341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		964FFFF626E7C7550007F341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7E4B26F4479969C9EDC5A64 /* Pods-Firefighter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firefighter.debug.xcconfig"; path = "Target Support Files/Pods-Firefighter/Pods-Firefighter.debug.xcconfig"; sourceTree = "<group>"; };
+		DE4FA13D28D7947600085483 /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		DEC38DF8289AC285005372BC /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		DEC38DF9289AC285005372BC /* Collection+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
 		DEC38DFA289AC285005372BC /* Observable+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Utils.swift"; sourceTree = "<group>"; };
@@ -724,7 +725,6 @@
 		DEC38F9F289AC286005372BC /* OImproveCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OImproveCell.swift; sourceTree = "<group>"; };
 		DEC38FA1289AC286005372BC /* ReferencesTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferencesTableCell.swift; sourceTree = "<group>"; };
 		DEC38FA2289AC286005372BC /* ReferencesTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferencesTableView.swift; sourceTree = "<group>"; };
-		DEC38FA4289AC286005372BC /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		DEC38FA5289AC286005372BC /* OWhenStudyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWhenStudyCell.swift; sourceTree = "<group>"; };
 		DEC38FA7289AC286005372BC /* WelcomeSlide1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSlide1View.swift; sourceTree = "<group>"; };
 		DEC38FA8289AC286005372BC /* WelcomeSlideIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSlideIndicatorView.swift; sourceTree = "<group>"; };
@@ -2273,7 +2273,7 @@
 		DEC38FA3289AC286005372BC /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				DEC38FA4289AC286005372BC /* Onboarding.Chart.json */,
+				DE4FA13D28D7947600085483 /* Onboarding.Chart.json */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -2373,12 +2373,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEC39108289AC2C9005372BC /* SF-Pro-Rounded-Black.otf in Resources */,
-				DEC390EB289AC286005372BC /* Onboarding.Chart.json in Resources */,
 				964F025D26E7CAB40007F341 /* GoogleService-Info.plist in Resources */,
 				964F023826E7C8FF0007F341 /* Localizable.strings in Resources */,
 				964F023426E7C8F60007F341 /* SF-Pro-Rounded-Regular.otf in Resources */,
 				964F023326E7C8F60007F341 /* SF-Pro-Rounded-Semibold.otf in Resources */,
 				964F023B26E7C9210007F341 /* LaunchScreen.storyboard in Resources */,
+				DE4FA13E28D7947600085483 /* Onboarding.Chart.json in Resources */,
 				964FFFF226E7C7550007F341 /* Assets.xcassets in Resources */,
 				964F023526E7C8F60007F341 /* SF-Pro-Rounded-Bold.otf in Resources */,
 			);
@@ -2831,7 +2831,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 8;
+				CURRENT_PROJECT_VERSION = 9;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -2840,7 +2840,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.firefighter.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Firefighter Widget Prod";
@@ -2858,7 +2858,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 8;
+				CURRENT_PROJECT_VERSION = 9;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -2867,7 +2867,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.firefighter.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Firefighter Widget Prod";
@@ -3003,7 +3003,7 @@
 				CODE_SIGN_ENTITLEMENTS = Firefighter/Firefighter.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 8;
+				CURRENT_PROJECT_VERSION = 9;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = "$(SRCROOT)/Firefighter/Resource/Info.plist";
@@ -3012,7 +3012,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.firefighter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Firefighter Prod";
@@ -3032,7 +3032,7 @@
 				CODE_SIGN_ENTITLEMENTS = Firefighter/Firefighter.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 8;
+				CURRENT_PROJECT_VERSION = 9;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = "$(SRCROOT)/Firefighter/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -3040,7 +3040,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.firefighter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Firefighter Prod";
